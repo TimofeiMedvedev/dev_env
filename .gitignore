@@ -1,6 +1,6 @@
 # venv
 venv/
-__pycashe__/
+__pycache__/
 
 # ide_staff
 .vscode
