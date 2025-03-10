@@ -1,0 +1,10 @@
+venv/
+__pycashe__/
+
+# ide_staff
+.vscode
+.idea
+
+# django_stuff
+db.sqlite3
+media/
