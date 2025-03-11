@@ -3,13 +3,15 @@ from django.http import HttpResponse
 
 def index(request):
     context = {
-        'title': 'Home',
-        'content': 'Главная страница Home',
-        'list': ['first', 'second'],
-        'dict': {'first': 1},
-        'is_authenticated': False
+        'title': 'Магазин Мир Печей - Главная',
+        'content': 'Магазин Мир Печей'
     }
     return render(request, 'main/index.html', context)
 
 def about(request):
-    return HttpResponse('About page')
+    context = {
+        'title': 'Магазин Мир Печей - О нас',
+        'content': 'О нас',
+        'text_on_page': 'В этом магазине устанавливают и продают печи камины'
+    }
+    return render(request, 'main/about.html', context)
