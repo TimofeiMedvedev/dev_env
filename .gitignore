@@ -9,3 +9,6 @@ __pycache__/
 # django_stuff
 db.sqlite3
 media/
+
+# other
+templates-for-Django-4-course-Home/
